@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BURGER HOUSE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="text-white">
+  <!--====== nav bar started ===========-->
+  <div>
+    <nav class="navbar navbar-expand-lg px-md-5 ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Burger logo.png" width="80px" alt=""
+            style="filter: drop-shadow(-2px -2px 2px whitesmoke)contrast(0.9);">
+          <div class="burger-house text-center text-black">BURGER HOUSE
+          </div>
+        </a>
+        <button class="navbar-toggler bg-light collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-md-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Why do we have</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Burger Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">Placing an Order</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-light" type="button">$</button>
+          </form>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--========= navbar ended ============-->
+
+  <!--=========== section product conatiner ==============-->
+  <div class="p-5 text-center">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="BrandBox">
+            <div>
+              <button type="button" class=" btn btn-danger btn-sm rounded-pill" id="new-menu">New Menu</button>
+              <h1 class="text-wrap py-3">Chaddar Burger</h1>
+              <p class="text-wrap py-3">We have updated our menu, hurry up to try
+                seasonal new items and enjoy the excellent taste
+                of our burgers. We prepare for you the best burgers
+                in the city from selected marbled beef.</p>
+              <button type="button" class=" btn btn-warning btn-lg rounded" id="view-menu">View Menu</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            style="background-image: url(https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600);"
+            class="BrandBox burger-main  border-dark p-2 border-opacity-10 rounded-circle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=========== section information ==============-->
+  <div class="p-5 text-center">
+    <div class="container py-5">
+      <div class="p-5 text-center">
+        <h1 class="text-center" >WHY CHOOSE US?</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div>
+            <img width="100%" class="bg-transparent"
+              src="burger-3d-render-illustration-isolated-transparent-background_106547-1-removebg-preview.png" alt="">
+            <div>
+              <h4 class="text-center">Author Recipies</h4>
+              <p class="text-center text-wrap">Our burgers have a unique
+                combination of flavors and are unlike
+                any other. We carefully select the best
+                ingredients and flavor combinations
+                for our menu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div>
+            <img width="100%" class="bg-transparent" src="https://images.emojiterra.com/twitter/v13.1/512px/1f969.png"
+              alt="">
+            <div>
+              <h4 class="text-center">Marble beef</h4>
+              <p class="text-center text-wrap">For our burgers we use selected
+                100% marbled beef, which we purchase
+                exclusively from farmers.
+                We are confident in the quality
+                of our meat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div>
+            <img width="100%" class="bg-transparent"
+              src="https://whatemoji.org/wp-content/uploads/2020/07/Delivery-Truck-Emoji.png" alt="">
+            <div>
+              <h4 class="text-center">Fast delivery</h4>
+              <p class="text-center text-wrap">We deliver within the Moscow Ring Road
+                in 30 minutes, and if we don’t make
+                it in time, delivery is free. We carefully pack
+                our burgers so they don't get cold along
+                the way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--=========== section cards ==============-->
+    <div class="p-5 text-center">
+      <div class="container">
+        <div class="p-5 text-center">
+          <h1 class="text-center" >CHOOSE YOUR BURGER</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white ">BBQ with bacon and chicken</h5>
+                <p class="card-text">Brioche bun with sesame seeds, chicken
+                  cutlet, cheddar cheese, tomato,
+                  pickled cucumber, pickled onion, Romaine
+                  lettuce, bacon, BBQ sauce</p>
+                <div><span style="
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>7 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>390gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Double beef burger</h5>
+                <p class="card-text">Two beef patties, cheddar cheese,
+                  romaine lettuce, pickles, fresh tomato,
+                  bacon, red onion, burger sauce,
+                  mustard</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>10 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>420gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div>
+                <img src="pexels-photo-327158-removebg-preview.png"
+                class="card-img-top" alt="..." >
+              </div>
+              <div class="card-body">
+                <h5 class="card-title  fw-bold text-white">Burger cheddar & bacon</h5>
+                <p class="card-text">Burger cheddar & bacon
+                  Krispie beef patty, bun, tomato,
+                  Cheddar cheese, brisket, red onion,
+                  iceberg lettuce, mayonnaise, ketchup,
+                  cheese sauce</p>
+                <div><span style="
+                    display: flex;
+                    /* justify-items: start; */
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">
+                    <h5>8 $</h5>
+                    <a href="#" class="btn btn-warning " id="order-btn">Order <i class="fa-solid fa-cart-plus"></i></a>
+                  </span>
+                  <h6>360gr</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--=========== section order detail form ==============-->
+    <div class="container">
+      <div class="row">
+        <h1 class="">PLACE YOUR ORDER
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- inthis div using background image of burger -->
+          <div class="burger-wd-bx py-5 rounded-circle">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <fieldset class="border border-3 rounded-3 border-dark py-5 bg-dark text-wrap text-center">
+            <legend>
+              <h5 class="text-center">
+                Fill in all the data and our
+                manager will contact
+                you to confirm the order
+              </h5>
+            </legend>
+              <form class="row g-3 bg-transparent fw-bold">
+                <div class="col-md-4">
+                  
+                  <select id="inputSelect" class="form-select bg-transparent text-center" aria-placeholder="Select product from the list">
+                    <option aria-readonly="true" selected="">Select product from the list</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                    <option>Burger</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+               What's Your Name
+                  <input type="text" class="form-control bg-transparent" id="inputText" placeholder="your name">      </div>
+          
+                <div class="col-md-3">
+           What's Your Phone Number
+              <input type="tel" class="form-control bg-transparent" id="inputTel" placeholder="your phone">
+                </div>
+              
+                <div class="col-12 mx-auto text-center w-100">
+                    <button class="btn btn-secondary btn-lg rounded" type="button">Checkout</button>
+                </div>
+              </form>
+            </fieldset>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
