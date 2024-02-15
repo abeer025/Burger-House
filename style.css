@@ -142,8 +142,17 @@ fieldset{
   padding:5px
 }
 
-{
+.BrandBox div {
+  text-align: justify;
+}
 
+.sectioninfo{
+  display: grid;
+}
+
+.card-am{
+    position: relative;
+    right: 224px;
 }
 
 /* media query */
