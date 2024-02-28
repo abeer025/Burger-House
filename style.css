@@ -1,8 +1,8 @@
-* {
+/* {
     font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: normal;
-    /* transition: .3s; */
+    /* transition: .3s;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-repeat: space;
     /* backdrop-filter: blur(77px);
-    background-color: black; */
+    background-color: black; 
     
 
 }
@@ -32,7 +32,7 @@ a:hover{
   text-decoration: none;
   color: Black;
   font-size: 1.2em;
-} */
+} 
 .BrandBox{
   height: 490px;
   background-position: center;
@@ -42,7 +42,7 @@ a:hover{
 }
 /* .BrandBox div{
   padding: 30px;  
-} */
+} 
 .BrandBox a{
   text-decoration: none;
   color: black;
@@ -78,7 +78,7 @@ a:hover{
 }
 /* .burger-main{
     border-radius: 10px 10px 10px 10px;
-} */
+} 
 
 #order-btn{
     width: 156px;
@@ -102,7 +102,7 @@ a:hover{
     flex-wrap: wrap;
     align-content: space-around;
     width: 258px;
-    font-size: 9px; */
+    font-size: 9px;
 
 }
 /* .card div{
@@ -112,7 +112,7 @@ a:hover{
     border-radius: 8px;
     box-shadow: 0 10px 12px rgba(0, 0, 0, .2);
     width: 300px;
-} */
+} 
 .card-img-top{
     margin-top: -137px;
 }
@@ -130,9 +130,9 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-origin: border-box; */
+  /* background-origin: border-box; 
   height: 490px;
-  /* border-radius: 322px; */
+  /* border-radius: 322px;
   filter: drop-shadow(2px 4px 6px black);
   margin-bottom: 18px;
 }
@@ -155,9 +155,175 @@ fieldset{
     right: 224px;
 }
 
-/* media query */
+/* media query 
 @media (min-width: 992px){
 .nav-link,.nav-item{
     padding:0px 0px 0px 100px
+}
+}*/
+ /* new styling */
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  /* transition: .3s; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white !important;
+}
+
+body {   
+  background-image: url(https://images.pexels.com/photos/216640/pexels-photo-216640.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+  background-repeat: space;
+  /* backdrop-filter: blur(77px);
+  background-color: black; */
+  
+
+}
+
+a{
+  color: whitesmoke !important;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* .socialMediaIcons{
+text-decoration: none;
+color: Black;
+font-size: 1.2em;
+} */
+
+.BrandBox{
+/* height: 347px; */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+}
+/* .BrandBox div{
+padding: 30px;  
+} */
+.BrandBox a{
+text-decoration: none;
+color: black;
+display: block;
+font-size: 1.5em;
+font-weight: bold;
+}
+.BrandBox:hover {
+background-size: 150%;
+}
+.BrandBox:hover a {
+color: orange;
+}
+
+.burger-house{
+  font-size:8px;
+  font-weight: 700; 
+  text-wrap:wrap;
+  text-shadow: 0px 0px 5px whitesmoke;
+
+}
+
+.burger-house a :hover{
+  text-decoration: none
+}
+#new-menu{
+  background-color: rgb(231, 9, 9);
+  padding: 10px 17px 10px 17px;
+}
+#view-menu{
+  background-color: rgb(255 181 14);
+  filter: contrast(0.9)drop-shadow(0px 0px 1px black);
+}
+/* .burger-main{
+  border-radius: 10px 10px 10px 10px;
+} */
+
+#order-btn{
+  width: 156px;
+  padding: 13px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.card{
+  background-color: transparent;
+  /* height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; */
+  /* height: 100vh !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 258px;
+  font-size: 9px; */
+
+}
+/* .card div{
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, .2);
+  width: 300px;
+} */
+.card-img-top{
+  margin-top: -137px;
+}
+
+
+h1{
+font-size: 101px;
+font-weight: 700;
+word-break: normal;
+text-transform: uppercase;
+}
+
+.burger-wd-bx {
+background-image: url(https://www.rewardhospitality.com.au/Images/ProductImages/Medium/3415102-3415104-lifestyle1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-origin: border-box; */
+height: 490px;
+/* border-radius: 322px; */
+filter: drop-shadow(2px 4px 6px black);
+margin-bottom: 18px;
+}
+fieldset{
+width: 300px;
+height:50vh;
+padding:5px
+}
+
+.BrandBox div {
+text-align: left;
+}
+
+/* .sectioninfo{
+display: grid;
+} */
+
+.card-am{
+  position: relative;
+  right: 224px;
+}
+
+/* media query */
+@media (min-width: 992px){
+.nav-link,.nav-item{
+  padding:0px 0px 0px 100px
 }
 }
